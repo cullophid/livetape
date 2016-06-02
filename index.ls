@@ -1,4 +1,5 @@
 livescript = require 'livescript'
+path = require 'path'
 map = (fn, list) --> list.map fn
 replace = (a, b, string) --> string.replace a, b
 head = (list) -> list[0]
@@ -24,4 +25,4 @@ module.exports = (files, options) -->
   else
     files
       .forEach (file) ->
-        require "./#{file}"
+        require path.join process.cwd(), "./#{file}"
