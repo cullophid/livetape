@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var livetape = require('livescript')
 var commander = require('commander')
 var livetape = require('../index.ls')
