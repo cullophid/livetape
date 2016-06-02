@@ -1,9 +1,9 @@
 {
   "name": "oolon-livetape",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "bin":"./bin/oolon-livetape",
+  "bin": "./bin/oolon-livetape",
   "scripts": {
     "example": "node bin/livetape.js example/*.test.ls"
   },
